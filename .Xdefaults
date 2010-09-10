@@ -1,9 +1,10 @@
 URxvt.geometry: 400x30 
 URxvt.buffered: true
 URxvt.background: black
-URxvt.foreground: green
+URxvt.foreground: cyan
 URxvt.cursorColor: yellow
 URxvt.underlineColor: green
+URxvt.colorBD: green
 URxvt.font:xft:Monospace:pixelsize=14:antialias=true
 
 !------------
@@ -12,7 +13,7 @@ URxvt.font:xft:Monospace:pixelsize=14:antialias=true
 !set to 32-bit for real transparency (compositing required (see xcompmgr)
 urxvt*depth:             32
 !transparent=0000 opaque=ffff
-urxvt*background: rgba:1111/1111/1111/dddd
+urxvt*background: rgba:1111/1111/1111/aaaa
 !urxvt*background: rgba:1111/1111/1111/0000
 
 
@@ -24,7 +25,7 @@ urxvt*background: rgba:1111/1111/1111/dddd
 
 Urxvt.secondaryScroll:  true    # Enable Shift-PageUp/Down in screen
 
-URxvt.perl-ext-common:  default,matcher,tabbed
+URxvt.perl-ext-common:  default,matcher,clipboard
 URxvt.urlLauncher:      /usr/bin/chromium-browser
 URxvt.matcher.button:   1 
 

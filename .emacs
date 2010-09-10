@@ -12,7 +12,8 @@
 
 (require 'color-theme)
 (color-theme-initialize)
-(color-theme-dark-blue2)
+(if (eq window-system nil) (color-theme-dark-font-lock) (color-theme-dark-blue2))
+;;(color-theme-dark-font-lock)
 (custom-set-variables
   ;; custom-set-variables was added by Custom.
   ;; If you edit it by hand, you could mess it up, so be careful.
