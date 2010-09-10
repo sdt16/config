@@ -1,5 +1,7 @@
 PATH=$PATH:~/bin
-
+export EDITOR="emacs -nw"
+export GIT_EDITOR="emacs -nw"
+alias pacman=pacman-color
 
 SSH_ENV="$HOME/.ssh/environment"
 
