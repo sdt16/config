@@ -113,3 +113,24 @@ set nocp
 filetype plugin on
 colorscheme desert
 highlight Pmenu ctermbg=238 gui=bold
+set encoding=utf-8
+set relativenumber
+set undofile
+set showmode
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
+inoremap <up> <nop>
+inoremap <down> <nop>
+inoremap <left> <nop>
+inoremap <right> <nop>
+nnoremap j gj
+nnoremap k gk
+au FocusLost * :wa
+inoremap jj <ESC>
+noremap <leader>w <C-w>v<C-w>l
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
